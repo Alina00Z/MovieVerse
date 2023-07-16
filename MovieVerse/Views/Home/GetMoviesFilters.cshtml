@@ -1,0 +1,103 @@
+﻿@using MovieVerse.Controllers;
+@using MovieVerse.Models
+@model FilmsInFilterViewModel
+@{
+    <link rel="stylesheet" href="~/css/styleMovies.css" />
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<header class="container">
+    <div class="header__content">
+        <a href="/Home/Index" class="header__logo">MovieVerse</a>
+        <div class="header__menu">
+            <div>
+                <a class="link" href="GetTopAwaitMovies?page=1">Ожидаемые</a>
+                <a class="link" href="GetTop100Movies?page=1">Топ100</a>
+            </div>
+
+        </div>
+        <form action="GetMoviesSearch">
+            <input type="text" name="searchKeyword" class="header__search" placeholder="Поиск" />
+        </form>
+    </div>
+</header>
+
+<div class="container">
+    <div>
+        <form action="GetMoviesFilters">
+            <input type="text" name="countries" value="@ViewBag.Countries" placeholder="Страна" /> <br />
+            <input type="text" name="genres" value="@ViewBag.Genres" placeholder="Жанр" /> <br />
+            <select name="order">
+                <option value="RATING" @(ViewBag.Order == "RATING" ? "selected" : "")>Рейтинг</option>
+                <option value="NUM_VOTE" @(ViewBag.Order == "NUM_VOTE" ? "selected" : "")>Кол-во голосов</option>
+                <option value="YEAR" @(ViewBag.Order == "YEAR" ? "selected" : "")>Год</option>
+            </select> <br />
+            <select name="type">
+                <option value="ALL" @(ViewBag.Type == "ALL" ? "selected" : "")>Все</option>
+                <option value="FILM" @(ViewBag.Type == "FILM" ? "selected" : "")>Фильмы</option>
+                <option value="MINI_SERIES" @(ViewBag.Type == "MINI_SERIES" ? "selected" : "")>Мини-сериалы</option>
+                <option value="TV_SHOW" @(ViewBag.Type == "TV_SHOW" ? "selected" : "")>ТВ-шоу</option>
+                <option value="TV_SERIES" @(ViewBag.Type == "TV_SERIES" ? "selected" : "")>ТВ-сериалы</option>
+            </select> <br />
+            <label>Рейтинг от:</label> <br />
+            <input type="number" name="ratingFrom" value=@ViewBag.RatingFrom placeholder="рейтинг от:" style="width: 35px;" maxlength="2" /> <br />
+            <label>Рейтинг до:</label> <br />
+            <input type="number" name="ratingTo" value=@ViewBag.RatingTo placeholder="рейтинг до:" style="width: 35px;" maxlength="2" /> <br />
+            <label>Год от:</label> <br />
+            <input type="number" name="yearFrom" value=@ViewBag.YearFrom placeholder="год от:" /> <br />
+            <label>Год до:</label> <br />
+            <input type="number" name="yearTo" value=@ViewBag.YearTo placeholder="год до:" /> <br />
+            <label>Ключевое слово</label> <br />
+            <input type="text" name="keyword" value="@ViewBag.Keyword" placeholder="Ключевое слово" /> <br />
+            <input type="hidden" name="page" value="@ViewBag.Page" />   
+            <input type="submit" value="Обновить" />
+        </form>
+    </div>
+    <div class="header-page">Фильмы</div>
+    <div class="movies">
+
+        @foreach (FilmInFilter film in Model.Films)
+        {
+            <div class="movie">
+                <div class="movie__cover-container">
+                    <a href="~/Home/GetMovie?id=@film.kinopoiskId">
+                        <img src=@film.posterUrl class="movie__cover" data-text=@film.nameRu />
+                    </a>
+                    <div class="movie__title centered-text">@film.nameRu</div>
+                </div>
+                <div class="movie__info">
+                    @if (film.ratingKinopoisk != null && !film.ratingKinopoisk.Contains('%'))
+                    {
+                        <div class="movie__average movie__average--@Utils.GetClassColorByRating(int.Parse(film.ratingKinopoisk.Substring(0,1)))">@film.ratingKinopoisk</div>
+                    }
+                </div>
+            </div>
+        }
+
+    </div>
+    <div class="link_container">
+        @if (Model.Page >= 5)
+        {
+            <a href="@ViewBag.HrefData&page=1" class="btn-link">1</a>
+        }
+        @if (Model.Page > 5)
+        {
+            <label>. . .</label>
+        }
+        @for (int i = Model.Page - 3; i < Model.Page + 4; i++)
+        {
+            if (i < 1) continue;
+            if (i > Model.TotalPages) break;
+            <a href="@ViewBag.HrefData&page=@i" class="btn-link @(i==Model.Page?"current_page":"")">@i</a>
+        }
+        @if (Model.TotalPages - Model.Page > 4)
+        {
+            <label>. . .</label>
+        }
+        @if (Model.TotalPages - Model.Page >= 4)
+        {
+            <a href="@ViewBag.HrefData&page=@Model.TotalPages" class="btn-link">@Model.TotalPages</a>
+        }
+    </div>
+</div>
+

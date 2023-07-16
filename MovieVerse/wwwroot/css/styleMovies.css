@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: #1a191f;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header-page {
+    color: lightgray;
+    padding: 5px 0px 5px 16px
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    height: 60px;
+}
+.link a {
+
+}
+
+.header__logo {
+    font-size: 32px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header__search {
+    padding: 8px;
+    border: 2px solid #1a191f;
+    border-radius: 5px;
+    outline: none;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movie {
+    width: 240px;
+    margin: 10px;
+    position: relative;
+}
+
+.movie__cover-container {
+    position: relative;
+    height: 360px;
+}
+    .movie__cover-container .movie__title {
+        opacity: 0.01;
+        font-size: 16px;
+        color: #ffffff;
+        transition: opacity 0.1s ease
+    }
+    .movie__cover-container:hover .movie__title,
+    .movie__cover-container:focus .movie__title
+    {
+        opacity: 1;
+    }
+    
+    .movie__cover {
+        max-width: 100%;
+        height: 100%;
+        border: 2px solid #1a191f;
+        border-radius: 5px;
+        transition: filter 0.1s ease;
+    }
+
+img.movie__cover:hover{
+    cursor: pointer;
+    filter: brightness(20%);
+}
+
+.movie__info {
+    padding: 10px 0px;
+}
+
+.movie__title {
+    font-size: 16px;
+    color: #ffffff;
+}
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.movie__category {
+    font-size: 14px;
+    color: #ffd80e;
+}
+
+.movie__average {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 0;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a191f;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.movie__average--green {
+    border: 1px solid green;
+}
+
+.movie__average--orange {
+    border: 1px solid orange;
+}
+
+.movie__average--red {
+    border: 1px solid red;
+}
+.link_container {
+    margin: 0px 2px;
+    padding: 5px 0px;
+    text-align: center;
+    font-size: 14px;
+}
+.btn-link {
+    padding: 2px 5px;
+    border-radius: 10%;
+    background-color: none;
+}
+.current_page {
+    border: 2px solid #696969;
+}
+   
+

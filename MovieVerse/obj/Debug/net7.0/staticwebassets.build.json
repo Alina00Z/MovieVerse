@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "8oRvsL1SrHotCwO+UsSoBQ9OnkStxKUOFAv0l/o24fU=",
+  "Source": "MovieVerse",
+  "BasePath": "_content/MovieVerse",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MovieVerse/wwwroot",
+      "Source": "MovieVerse",
+      "ContentRoot": "/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/wwwroot/",
+      "BasePath": "_content/MovieVerse",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/wwwroot/css/styleMovie.css",
+      "SourceId": "MovieVerse",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/wwwroot/",
+      "BasePath": "_content/MovieVerse",
+      "RelativePath": "css/styleMovie.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styleMovie.css"
+    },
+    {
+      "Identity": "/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/wwwroot/css/styleMovies.css",
+      "SourceId": "MovieVerse",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/wwwroot/",
+      "BasePath": "_content/MovieVerse",
+      "RelativePath": "css/styleMovies.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styleMovies.css"
+    }
+  ]
+}

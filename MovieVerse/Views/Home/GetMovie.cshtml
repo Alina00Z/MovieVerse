@@ -1,0 +1,63 @@
+﻿@using MovieVerse.Controllers;
+@using MovieVerse.Models
+@model Film
+@{
+    <link rel="stylesheet" href="~/css/styleMovie.css" />
+    ViewBag.Title = Model.nameRu;
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<header class="container">
+    <div class="header__content">
+        <a href="/Home/Index" class="header__logo">MovieVerse</a>
+        <form action="GetMoviesSearch" method="post">
+            <input type="text" name="nameRu" class="header__search" placeholder="Поиск" />
+        </form>
+    </div>
+</header>
+
+<div class="container">
+    <div class="movie">
+        <img src=@Model.posterUrl />
+        <div class="nameRu">@Model.nameRu</div>
+        @if (Model.nameEn != null && Model.nameEn != "null")
+        {
+            <div class="nameEn">@Model.nameEn</div>
+        }
+        else if (Model.nameOriginal != null && Model.nameOriginal != "null")
+        {
+            <div class="nameEn">@Model.nameOriginal</div>
+        }
+
+        <div>Рейтинг кинопоиска: @Model.ratingKinopoisk</div>
+        <div>Рейтинг Imdb: @Model.ratingImdb</div>
+        <div>Год: @Model.year</div>
+        <div>Продолжительность: @Model.filmLength мин</div>
+        @if (Model.slogan != "" && Model.slogan != null)
+            {
+                <div>Слоган: @Model.slogan</div>
+            }
+        <div>Описание: @Model.description</div>
+        @if (Model.productionStatus != null)
+        {
+            <div>@Model.productionStatus</div>
+        }
+        <div>Страны</div>
+        @foreach (var country in Model.countries)
+        {
+            <div>@country.country</div>
+        }
+        <div>Жанры</div>
+        @foreach (var genre in Model.genres)
+        {
+            <div>@genre.genre</div>
+        }
+        <a href=@Model.webUrl class="btn-link">Смотреть на кинопоиске</a>
+
+
+
+    </div>
+</div>
+
+
+

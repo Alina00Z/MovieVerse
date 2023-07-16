@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{C7A7C2A2-7FC3-4DB7-B97C-BA9D21D082BA}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MovieVerse PreferredExecutionTarget="/Applications/Yandex.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieVerse/Views/Home/GetMoviesFilters.cshtml">
+    <Files>
+      <File FileName="MovieVerse/Views/Home/GetMovies.cshtml" Line="13" Column="14" />
+      <File FileName="MovieVerse/Views/Home/GetMoviesFilters.cshtml" Line="23" Column="71" />
+      <File FileName="MovieVerse/Views/Shared/_Layout.cshtml" Line="15" Column="8" />
+      <File FileName="MovieVerse/Controllers/HomeController.cs" Line="22" Column="69" />
+      <File FileName="MovieVerse/Controllers/Services/MovieService.cs" />
+      <File FileName="MovieVerse/wwwroot/css/styleMovies.css" />
+      <File FileName="MovieVerse/Models/FilmViewModel.cs" Line="13" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MovieVerse" expanded="True">
+            <Node name="MovieVerse" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="Services" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="GetMoviesFilters.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

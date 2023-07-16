@@ -1,0 +1,132 @@
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/bin/Debug/net7.0/appsettings.Development.json
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/bin/Debug/net7.0/appsettings.json
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.staticwebassets.runtime.json
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.exe
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.deps.json
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.runtimeconfig.json
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.dll
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.pdb
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/bin/Debug/net7.0/Microsoft.DotNet.PlatformAbstractions.dll
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/bin/Debug/net7.0/Newtonsoft.Json.dll
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.csproj.AssemblyReference.cache
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.GeneratedMSBuildEditorConfig.editorconfig
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.AssemblyInfoInputs.cache
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.AssemblyInfo.cs
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.csproj.CoreCompileInputs.cache
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.MvcApplicationPartsAssemblyInfo.cache
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.RazorAssemblyInfo.cache
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.RazorAssemblyInfo.cs
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets/msbuild.MovieVerse.Microsoft.AspNetCore.StaticWebAssets.props
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets/msbuild.build.MovieVerse.props
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.MovieVerse.props
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.MovieVerse.props
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets.pack.json
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets.build.json
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets.development.json
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/scopedcss/bundle/MovieVerse.styles.css
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.csproj.CopyComplete
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.dll
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/refint/MovieVerse.dll
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.pdb
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.genruntimeconfig.cache
+D:/Projects/VS/Apps/MovieVerse/MovieVerse/obj/Debug/net7.0/ref/MovieVerse.dll
+/Users/alina/Downloads/MovieVerse/MovieVerse/bin/Debug/net7.0/appsettings.Development.json
+/Users/alina/Downloads/MovieVerse/MovieVerse/bin/Debug/net7.0/appsettings.json
+/Users/alina/Downloads/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.staticwebassets.runtime.json
+/Users/alina/Downloads/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse
+/Users/alina/Downloads/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.deps.json
+/Users/alina/Downloads/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.runtimeconfig.json
+/Users/alina/Downloads/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.dll
+/Users/alina/Downloads/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.pdb
+/Users/alina/Downloads/MovieVerse/MovieVerse/bin/Debug/net7.0/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/alina/Downloads/MovieVerse/MovieVerse/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/alina/Downloads/MovieVerse/MovieVerse/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.csproj.AssemblyReference.cache
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.AssemblyInfoInputs.cache
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.AssemblyInfo.cs
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.csproj.CoreCompileInputs.cache
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.MvcApplicationPartsAssemblyInfo.cache
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.RazorAssemblyInfo.cache
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.RazorAssemblyInfo.cs
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets/msbuild.MovieVerse.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets/msbuild.build.MovieVerse.props
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.MovieVerse.props
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.MovieVerse.props
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets.build.json
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets.development.json
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/scopedcss/bundle/MovieVerse.styles.css
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.csproj.CopyComplete
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.dll
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/refint/MovieVerse.dll
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.pdb
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.genruntimeconfig.cache
+/Users/alina/Downloads/MovieVerse/MovieVerse/obj/Debug/net7.0/ref/MovieVerse.dll
+/Users/alina/Projects/MovieVerse/MovieVerse/bin/Debug/net7.0/appsettings.Development.json
+/Users/alina/Projects/MovieVerse/MovieVerse/bin/Debug/net7.0/appsettings.json
+/Users/alina/Projects/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.staticwebassets.runtime.json
+/Users/alina/Projects/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse
+/Users/alina/Projects/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.deps.json
+/Users/alina/Projects/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.runtimeconfig.json
+/Users/alina/Projects/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.dll
+/Users/alina/Projects/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.pdb
+/Users/alina/Projects/MovieVerse/MovieVerse/bin/Debug/net7.0/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/alina/Projects/MovieVerse/MovieVerse/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/alina/Projects/MovieVerse/MovieVerse/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.csproj.AssemblyReference.cache
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.AssemblyInfoInputs.cache
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.AssemblyInfo.cs
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.csproj.CoreCompileInputs.cache
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.MvcApplicationPartsAssemblyInfo.cache
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.RazorAssemblyInfo.cache
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.RazorAssemblyInfo.cs
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets/msbuild.MovieVerse.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets/msbuild.build.MovieVerse.props
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.MovieVerse.props
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.MovieVerse.props
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets.build.json
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets.development.json
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/scopedcss/bundle/MovieVerse.styles.css
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.csproj.CopyComplete
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.dll
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/refint/MovieVerse.dll
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.pdb
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.genruntimeconfig.cache
+/Users/alina/Projects/MovieVerse/MovieVerse/obj/Debug/net7.0/ref/MovieVerse.dll
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/bin/Debug/net7.0/appsettings.Development.json
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/bin/Debug/net7.0/appsettings.json
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.staticwebassets.runtime.json
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.deps.json
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.runtimeconfig.json
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.dll
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/bin/Debug/net7.0/MovieVerse.pdb
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/bin/Debug/net7.0/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.csproj.AssemblyReference.cache
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.AssemblyInfoInputs.cache
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.AssemblyInfo.cs
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.csproj.CoreCompileInputs.cache
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.MvcApplicationPartsAssemblyInfo.cache
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.RazorAssemblyInfo.cache
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.RazorAssemblyInfo.cs
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets/msbuild.MovieVerse.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets/msbuild.build.MovieVerse.props
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.MovieVerse.props
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.MovieVerse.props
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets.build.json
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/staticwebassets.development.json
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/scopedcss/bundle/MovieVerse.styles.css
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.csproj.CopyComplete
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.dll
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/refint/MovieVerse.dll
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.pdb
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/MovieVerse.genruntimeconfig.cache
+/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/obj/Debug/net7.0/ref/MovieVerse.dll

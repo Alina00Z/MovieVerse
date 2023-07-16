@@ -1,0 +1,86 @@
+﻿@using MovieVerse.Controllers;
+@using MovieVerse.Models
+@model FilmShortViewModel
+@{
+    <link rel="stylesheet" href="~/css/styleMovies.css" />
+    ViewBag.Title = "MovieVerse";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+
+<body>
+    <header class="container">
+        <div class="header__content">
+            <a href="/Home/Index" class="header__logo">MovieVerse</a>
+            <div class="header__menu">
+                <div>
+                    <a class="link" href="GetTopAwaitMovies?page=1">Ожидаемые</a>
+                    <a class="link" href="GetTop100Movies?page=1">Топ100</a>
+                </div>
+
+            </div>
+            <form action="GetMoviesSearch">
+                <input type="text" name="searchKeyword" class="header__search" placeholder="Поиск" />
+            </form>
+        </div>
+    </header>
+    <div class="container">
+        <div class="header-page">
+            @if(Model.TypeTopHeader != "")
+             {
+                @Model.TypeTopHeader
+             }
+             else if (Model.SearchKeyword != "")
+             {
+                <label>Поиск: @Model.SearchKeyword</label>
+             }
+        </div>
+        <div class="movies">
+            @if (Model != null)
+            {
+                @foreach (FilmShort film in Model.Films)
+                {
+                    <div class="movie">
+                        <div class="movie__cover-container">
+                            <a href="~/Home/GetMovie?id=@film.filmId">
+                                <img src=@film.posterUrl class="movie__cover"/>
+                            </a>
+                            <div class="movie__title centered-text">@(film.nameRu!=null && film.nameRu!=""?film.nameRu:film.nameEn)</div>
+                        </div>
+                        <div class="movie__info">
+                            @if (film.rating != null && film.rating != "null" && !film.rating.Contains('%'))
+                            {
+                                <div class="movie__average movie__average--@Utils.GetClassColorByRating(int.Parse(film.rating.Substring(0,1)))">@film.rating</div>
+                            }
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+        <div class="link_container">
+            @if (Model.Page >= 5)
+            {
+                <a href="~/Home/GetMovies?page=1&typeTop=@Model.TypeTop&searchKeyword=@Model.SearchKeyword&pagesCount=@Model.PagesCount" class="btn-link">1</a>
+            }
+            @if (Model.Page > 5)
+            {
+                <label>. . .</label>
+            }
+            @for (int i = Model.Page - 3; i < Model.Page + 4; i++)
+            {
+                if (i < 1) continue;
+                if (i > Model.PagesCount) break;
+                <a href="~/Home/GetMovies?page=@i&typeTop=@Model.TypeTop&searchKeyword=@Model.SearchKeyword&pagesCount=@Model.PagesCount" class="btn-link @(i==Model.Page?"current_page":"")">@i</a>
+            }
+            @if (Model.PagesCount - Model.Page > 4)
+            {
+                <label>. . .</label>
+            }
+            @if (Model.PagesCount - Model.Page >= 4)
+            {
+                <a href="~/Home/GetMovies?page=@Model.PagesCount&typeTop=@Model.TypeTop&searchKeyword=@Model.SearchKeyword&pagesCount=@Model.PagesCount" class="btn-link">@Model.PagesCount</a>
+            }
+
+        </div>
+    </div>
+</body>

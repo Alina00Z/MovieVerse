@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/wwwroot/css/styleMovie.css",
+      "PackagePath": "staticwebassets/css/styleMovie.css"
+    },
+    {
+      "Id": "/Users/alina/Projects/Новая папка/MovieVerse/MovieVerse/wwwroot/css/styleMovies.css",
+      "PackagePath": "staticwebassets/css/styleMovies.css"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.MovieVerse.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.MovieVerse.props",
+      "PackagePath": "build\\MovieVerse.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.MovieVerse.props",
+      "PackagePath": "buildMultiTargeting\\MovieVerse.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.MovieVerse.props",
+      "PackagePath": "buildTransitive\\MovieVerse.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
